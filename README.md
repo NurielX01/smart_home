@@ -8,7 +8,7 @@ Registration to event is done by choosing the type and location of the event to 
 This example demonstrate the use of event distribution system.
 An event is published by an agent representing a smoke detector, and received at an agent representing a sprinkler, which had been registed to the smoke event.
 
-# how to use this code?
+# how to use
 1. It is recommended to use Linux OS to compile and run this program, otherwise some issues may occur due to unsupported libraries.
 2. Download the the repository.
 3. Open terminal and navigate to test/smart_home.
