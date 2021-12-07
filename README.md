@@ -18,6 +18,6 @@ An event is published by an agent representing a smoke detector, and received at
 7. On the second terminal, write the following command "make clean check".
 8. Wait until you see the program output on the terminal.
 9. Output should include:
-  a. Terminal-1: prints called by the main thread which accepts the connection request from both agents (sensor, sprinkler) and the event published by the sensor.
-  b. Terminal-1: More prints called by the thread executing the event routing to the the sprinkler.
-  c. Terminal-2: The event details and data load received at the agent representing the sprinkler.
+a. Terminal-1: prints called by the main thread which accepts the connection request from both agents (sensor, sprinkler) and the event published by the sensor.
+b. Terminal-1: More prints called by the thread executing the event routing to the the sprinkler.
+c. Terminal-2: The event details and data load received at the agent representing the sprinkler.
