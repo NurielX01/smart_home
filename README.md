@@ -15,9 +15,9 @@ An event is published by an agent representing a smoke detector, and received at
 4. Type "cd <YOUR DOWNLOAD PATH>/smart_home/test/hub" to navigate to the makefile.
 5. Type "make clean check" to generate new executable and run the hub. 
 6. Wait until a test GUI apears - this means the server is now running.
-7. Repeat stages 3 - 5 with the path "cd <YOUR DOWNLOAD PATH>/smart_home/test/smart_home_tcp_client". Make sure you do not close the first terminal.
+7. Repeat stages 3 - 5 with the path "cd [YOUR DOWNLOAD PATH]/smart_home/test/smart_home_tcp_client". Make sure you do not close the first terminal.
 8. Wait until you see the program output on the terminal.
 9. Output should include:<br />
-  a. Terminal-1: prints called by main thread which accepts the connection requests from agents(sensor, sprinkler) and receive event &nbsp;&nbsp;&nbsp;&nbsp;published by the sensor.<br />
+  a. Terminal-1: prints called by main thread which accepts the connection requests from agents(sensor, sprinkler) &nbsp;&nbsp;&nbsp;&nbsp;and receive event published by the sensor.<br />
   b. Terminal-1: More prints called by the thread executing the event routing to the the sprinkler.<br />
   c. Terminal-2: The event details and data load received at the agent representing the sprinkler.
