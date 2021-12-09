@@ -12,7 +12,7 @@ An event is published by an agent representing a smoke detector, and received at
 * It is recommended to use Linux OS to compile and run this program, otherwise some issues may occur due to unsupported libraries.
 1. Download the the repository.
 2. Hold "ctrl" + "alt" + "t" to open terminal.
-3. Type "cd <YOUR DOWNLOAD PATH>/smart_home/test/hub" to navigate to the makefile.
+3. Type "cd [YOUR DOWNLOAD PATH]/smart_home/test/hub" to navigate to the makefile.
 4. Type "make clean check" to generate new executable and run the hub. 
 5. Wait until a test GUI apears - this means the server is now running.
 6. While running, Repeat stages 3-5 with the path "...smart_home/test/smart_home_tcp_client".
