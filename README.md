@@ -11,12 +11,11 @@ An event is published by an agent representing a smoke detector, and received at
 # how to use
 1. It is recommended to use Linux OS to compile and run this program, otherwise some issues may occur due to unsupported libraries.
 2. Download the the repository.
-3. hold "ctrl" + "alt" + "t" to open terminal.
-4. type "cd <YOUR DOWNLOAD PATH>  navigate to test/smart_home.
-4. Open a second terminal and navigate to test/smart_home_tcp_client.
-5. On the first terminal, write the following command: "make clean check".
+3. Hold "ctrl" + "alt" + "t" to open terminal.
+4. Type "cd <YOUR DOWNLOAD PATH>/smart_home/test/hub" to navigate to the makefile.
+5. Type "make clean check" to generate new executable and run the hub. 
 6. Wait until a test GUI apears - this means the server is now running.
-7. On the second terminal, write the following command "make clean check".
+7. Repeat stages 3 - 5 with the path "cd <YOUR DOWNLOAD PATH>/smart_home/test/smart_home_tcp_client". Make sure you do not close the first terminal.
 8. Wait until you see the program output on the terminal.
 9. Output should include:<br />
   a. Terminal-1: prints called by main thread which accepts the connection requests from agents(sensor, sprinkler) and receive event &nbsp;&nbsp;&nbsp;&nbsp;published by the sensor.<br />
