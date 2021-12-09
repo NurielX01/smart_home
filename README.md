@@ -11,7 +11,8 @@ An event is published by an agent representing a smoke detector, and received at
 # how to use
 1. It is recommended to use Linux OS to compile and run this program, otherwise some issues may occur due to unsupported libraries.
 2. Download the the repository.
-3. Open terminal and navigate to test/smart_home.
+3. hold "ctrl" + "alt" + "t" to open terminal.
+4. type "cd <YOUR DOWNLOAD PATH>  navigate to test/smart_home.
 4. Open a second terminal and navigate to test/smart_home_tcp_client.
 5. On the first terminal, write the following command: "make clean check".
 6. Wait until a test GUI apears - this means the server is now running.
