@@ -21,7 +21,7 @@ check: $(TARGET)
 	./$(TARGET)
 
 main: main.cpp\
-$(SRC)/incoder.cpp $(INC)/incoder.hpp\
+$(SRC)/encoder.cpp $(INC)/encoder.hpp\
 $(SRC)/server_tcp.cpp $(INC)/server_tcp.hpp\
 $(SRC)/agent_socket_container.cpp $(INC)/agent_socket_container.hpp\
 $(SRC)/message_handler.cpp $(INC)/message_handler.hpp\
