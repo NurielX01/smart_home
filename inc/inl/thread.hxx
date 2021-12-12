@@ -95,6 +95,11 @@ void Thread<Policy>::Detach()
 template <typename Policy>
 void Thread<Policy>::Cancel()
 {
+    if(m_threadCanceled.IsOn())
+    {
+        return;
+    }
+    
     int result = pthread_cancel(m_thread);
     if(result != 0)
     {

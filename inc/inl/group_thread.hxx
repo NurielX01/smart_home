@@ -45,6 +45,11 @@ size_t GroupThread<Policy>::Remove(size_t a_thisMuchThreads)
     MutexGuard removeMutex;
     size_t oldAmount = m_threadContainer.size();
 
+    if(m_threadContainer.empty())
+    {
+        return 0;
+    }
+
     auto begin = m_threadContainer.begin();
     auto end = m_threadContainer.end();
 
